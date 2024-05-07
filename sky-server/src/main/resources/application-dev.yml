@@ -1,0 +1,29 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: 122.51.159.21
+    port: 3306
+    database: takeout_plus
+    username: root
+    password: root
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id:
+    access-key-secret:
+    bucket-name: hac-java
+  redis:
+    host: 122.51.159.21
+    port: 6379
+    password: redis_password
+    database: 0
+  wechat:
+    appid:
+    secret:
+    mchid:
+
+    mchSerialNo:
+    privateKeyFilePath:
+    apiV3Key:
+    weChatPayCertFilePath:
+    notifyUrl:
+    refundNotifyUrl:
